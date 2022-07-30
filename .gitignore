@@ -1,0 +1,9 @@
+# directory
+.vscode
+pixiv_illusions
+
+# logging
+pixiv_crawler.log
+
+# private settings
+pixiv_settings.json

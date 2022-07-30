@@ -1,0 +1,18 @@
+{
+    "headers": {
+        "cookie": "",
+        "user-agent": "",
+        "referer": "https://www.pixiv.net/"
+    },
+    "proxies": {
+        "http": "",
+        "https": ""
+    },
+    "config": {
+        "interval_between_user": 100,
+        "interval_between_download": 2
+    },
+    "uid": [
+        
+    ]
+}
