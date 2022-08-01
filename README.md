@@ -4,7 +4,7 @@
 
 *（仅供学习交流用途，请勿传播图片、尝试 ~~[数据删除]~~ 等不适宜行为，违者自负。）*
 
-</br>
+
 
 # 安装
 
@@ -22,7 +22,7 @@ conda create -n <env_name> python=3.8
 pip install -r requirements.txt
 ```
 
-</br>
+
 
 # 配置
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 }
 ```
 
-</br>
+
 
 # 文件说明
 
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 - `pixiv_illusions`：运行主程序后**自动生成**的目录，按照作者 ID 分目录存放图片。
 - `requirements.txt`：虚拟环境的依赖包。
 
-</br>
+
 
 # 使用
 
@@ -95,4 +95,4 @@ pip install -r requirements.txt
 2. 运行过程中，程序会自动在本目录下创建 `pixiv_illlusions` 目录，并在该目录下对每个作者的 ID 新建一个子目录，以存放该作者的所有作品。
 3. 终端和日志文件中会实时跟进爬虫运行情况。用户可在 `pixiv_crawler.log` 中查看详情。
 
-</br>
+
