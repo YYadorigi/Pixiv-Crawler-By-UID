@@ -14,7 +14,7 @@
 conda create -n <env_name> python=3.8
 ```
 
-
+</br>
 
 运行以下命令安装依赖：
 
@@ -30,10 +30,14 @@ pip install -r requirements.txt
 
 然后依照实际情况如下填写 `pixiv_settings.json` 文件：
 
+</br>
+
 - 必须自行填写的项为：
 
   `cookie`，`user-agent`，`http`，`https`，`uid`；
-
+  
+  </br>
+  
 - 可以自行修改的项为：
 
   `interval_between_user`：每爬取不同uid之间的时间间隔（单位：秒），
@@ -41,10 +45,14 @@ pip install -r requirements.txt
   `interval_between_download`：每次下载之间的时间间隔（单位：秒）；
 
   *（警告：不建议将后者设置得过短，过于频繁的访问存在封IP的风险。）*
+  
+  </br>
 
 - 不可修改的项为：
 
   `referer`：pixiv 主址。
+  
+  </br>
 
 ```
 {
@@ -86,3 +94,5 @@ pip install -r requirements.txt
 1. 配置好 `pixiv_settings.json` 后，直接在虚拟环境下运行 `pixiv_crawler.py` 即可。
 2. 运行过程中，程序会自动在本目录下创建 `pixiv_illlusions` 目录，并在该目录下对每个作者的 ID 新建一个子目录，以存放该作者的所有作品。
 3. 终端和日志文件中会实时跟进爬虫运行情况。用户可在 `pixiv_crawler.log` 中查看详情。
+
+
