@@ -142,9 +142,6 @@ if __name__ == "__main__":
     p = PixivCrawler()
     for uid in p.settings["uid"]:
         p.download_all_works_by_uid(uid)
+        logger.info(f"Download all works of user {uid}")
         p.sleep("interval_between_user")
-
-
-        
-
-
+    logger.info("All works downloaded")
